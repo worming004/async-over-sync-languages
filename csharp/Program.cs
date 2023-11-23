@@ -8,7 +8,7 @@
 var allTasks = new List<Task>();
 
 // const int count = 100000; // 100000 is too long ..
-const int count = 200; // 12,0384s
+const int count = 200; // 12,069s
 
 var start = DateTime.Now;
 for (var i = 0; i < count; i++)
