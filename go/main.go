@@ -7,9 +7,9 @@ import (
 	"time"
 )
 
-const count = 100000
+const count = 100000 //1,5357s
 
-// const count = 200
+// const count = 200 //1,0012s
 
 func main() {
 	ch := make(chan struct{}, count)

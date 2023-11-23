@@ -1,5 +1,8 @@
 defmodule ElixirExample do
+  # 1,625s
   @count 100_000
+
+  # 1,002s
   # @count 200
   import Number.Delimit
 
